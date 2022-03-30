@@ -1,0 +1,18 @@
+h1 {
+  font-size: 30px;
+  color: blue;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg-color: #000;
+    --text-color: #fff;
+  }
+}
+
+@media (prefers-color-scheme: light){
+  
+}
